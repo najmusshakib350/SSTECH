@@ -1,0 +1,390 @@
+
+@media (max-width: 575px) { 
+    header .logo{
+        width: 60%;
+    }
+    .navbar-light .navbar-brand{
+        width:60%;
+    }
+    header .navbar-nav{
+        margin-top: 35px;
+    }
+    header .nav-item .btn{
+        padding: 5px 30px;
+        margin-top: 35px;
+    }
+    header h1{
+        font-size: 30px !important;
+    }
+    header p {
+        font-size: 16px !important;
+    }
+    header .banner-btn .btn-cta{
+        margin-bottom: 8px;
+        padding: 5px 30px !important;
+    }
+    header .banner-btn .btn-ghose{
+        margin-bottom: 8px;
+        padding: 5px 30px !important;
+    }
+    .feature {
+        padding: 0 !important;
+    }
+    .feature .feature-control-upper{
+        padding: 0;
+    }
+    .feature .feature-control-upper h2{
+        font-size: 25px;
+    }
+    .feature .feature-control-upper p{
+        font-size: 16px;
+    }
+    .feature .feature-control{
+        padding: 20px 0;
+    }
+    .feature .feature-control p {
+        font-size: 16px;
+    }
+    .feature .feature-control h6{
+        font-size: 16px;
+    }
+    .about{
+        background-position:unset;
+    }
+    .about .about-control{
+        width: 100%;
+    }
+    .about .about-control p{
+        font-size: 16px;
+        color: #222;
+    }
+    .about .about-control .btn-about{
+        padding: 6px 30px;
+    }
+    .second-about .second-about-control {
+        padding: 0 !important;
+    }
+    .second-about .second-about-control h4{
+        font-size: 24px;
+    }
+    .second-about .second-about-control p{
+        font-size: 16px;
+    }
+    .portfolio-upper-box{
+        padding: 0;
+    }
+    .portfolio .portfolio-upper-box p{
+        font-size: 16px;
+    }
+    .portfolio .navbar .nav-menu{
+        border: none;
+        flex-direction: column;
+        margin-left: 0;
+    }
+    .portfolio .navbar .nav-menu .nav-item{
+        text-align: left;
+    }
+    .portfolio .portfolio-image{
+        margin-bottom: 10px;
+    }
+    .portfolio .portfolio-image .image-hover ul li{
+       height: 100%;
+    }
+    .login-form .col-12 .login-form-upper{
+        padding: 0;
+    }
+    .login-form .col-12 .login-form-upper h3{
+        font-size: 25px;
+    }
+    .login-form .col-12 .login-form-upper p{
+        font-size: 16px;
+    }
+    .login-form form{
+        width: 100%;
+        display: block !important;
+        border-radius: unset;
+        padding: 25px 5px;
+    }
+    .login-form form .text-field{
+        width: 100%;
+        padding: 10px;
+        border-bottom: 1px solid #999;
+    }
+    .login-form .login-form-control form img{
+        display: none;
+    }
+    .login-form form .submit-btn{
+        width: 50%;
+        padding: 10px;
+        background: #756aff;
+        border-radius: 20px;
+        margin-top: 20px;  
+    }
+    .login-form form .submit-btn:hover{
+        border-radius: 20px;
+    }
+    .client .text-control{
+        padding: 0;
+    }
+    .client .text-control h3{
+        font-size: 25px;
+    }
+    .client .text-control p{
+        font-size: 16px;
+    }
+    .client .client-control h4{
+        font-size: 20px;
+    }
+    .client .client-control p{
+        font-size: 16px;
+    }
+    .contact .col-12 .text-control{
+        padding: 0;
+    }
+    .contact .col-12 .text-control h3{
+        font-size: 25px;
+    }
+    .contact .col-12 .text-control p{
+        font-size: 16px;
+    }     
+    .contact .contact-control p {
+        font-size: 16px;
+    }
+    .contact form .text {
+        width: 100%;
+    }
+    .contact form .text-email{
+        width: 100%;
+        margin-left: 0;
+    }
+    .contact form .form-btn{
+        width:50%;
+    }
+    .footer p{
+        font-size: 16px;
+    }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+    header .logo{
+        width: 80%;
+    }
+    header .navbar-nav{
+        margin-top: 35px;
+    }
+    header .nav-item .btn{
+        padding: 5px 30px;
+        margin-top: 35px;
+    }
+    header h1{
+        font-size: 35px !important;
+    }
+    header p {
+        font-size: 18px !important;
+    }
+    .feature {
+        padding: 0 !important;
+    }
+    .feature .feature-control-upper{
+        padding: 0;
+    }
+    .feature .feature-control-upper h2{
+        font-size: 30px;
+    }
+    .feature .feature-control-upper p{
+        font-size: 18px;
+    }
+    .feature .feature-control{
+        padding: 20px 0;
+    }
+    .feature .feature-control p {
+        font-size: 18px;
+    }
+    .feature .feature-control h6{
+        font-size: 18px;
+    }
+    .about .about-control{
+        width: 100%;
+    }
+    .about .about-control p{
+        font-size: 18px;
+        color: #222;
+    }
+    .second-about .second-about-control {
+        padding: 0 !important;
+    }
+    .second-about .second-about-control h4{
+        font-size: 28px;
+    }
+    .second-about .second-about-control p{
+        font-size: 18px;
+    }
+    .portfolio-upper-box{
+        padding: 0;
+    }
+    .portfolio .portfolio-upper-box p{
+        font-size: 18px;
+    }
+    .portfolio .portfolio-image{
+        margin-bottom: 10px;
+    }
+    .portfolio .navbar .nav-menu .nav-item .nav-link{
+        padding: 11px 5px;
+    }
+    .login-form .col-12 .login-form-upper{
+        padding: 0;
+    }
+    .login-form .col-12 .login-form-upper h3{
+        font-size: 30px;
+    }
+    .login-form .col-12 .login-form-upper p{
+        font-size: 18px;
+    }
+    .login-form form{
+        width: 100%;
+    }
+    .login-form form .text-field{
+        padding: 10px;
+    }
+    .login-form .login-form-control form img{
+        display: none;
+    }
+    .login-form form .submit-btn{
+        padding: 0;
+    }
+    .client .text-control{
+        padding: 0;
+    }
+    .client .text-control h3{
+        font-size: 30px;
+    }
+    .client .text-control p{
+        font-size: 18px;
+    }
+    .contact .col-12 .text-control{
+        padding: 0;
+    }
+    .contact .col-12 .text-control h3{
+        font-size: 30px;
+    }
+    .contact .col-12 .text-control p{
+        font-size: 18px;
+    }     
+    .contact .contact-control p {
+        font-size: 18px;
+    }
+    .contact form .text {
+        width: 100%;
+    }
+    .contact form .text-email{
+        width: 100%;
+        margin-left: 0;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) { 
+    header .logo{
+        width: 90%;
+    }
+    .navbar-nav {
+        margin-top: 35px;
+    }
+    header h1{
+        font-size: 38px;
+    }
+    header .banner-btn .btn-cta{
+        margin-bottom: 20px;
+    }
+    .feature .feature-control-upper{
+        padding: 0;
+    }
+    .feature .feature-control{
+        padding: 0;
+    }
+    .about .about-control{
+        width: 100%;
+    }
+    .about .about-control p{
+        color: #222;
+    }
+    .second-about .second-about-control {
+        padding: 0 !important;
+    }
+    .portfolio .portfolio-image{
+        margin-bottom: 10px;
+    }
+    .login-form .col-12 .login-form-upper{
+        padding: 0;
+    }
+    .login-form form .text-field{
+        padding: 10px;
+    }
+    .login-form form .submit-btn{
+        padding: 10px;
+    }
+    .client .text-control{
+        padding: 0;
+    }
+    .contact .col-12 .text-control{
+        padding: 0;
+    }
+    .contact .contact-control p{
+        font-size:18px;
+    }
+    .contact form .text-email{
+        margin-left:2%;
+    }
+    .contact form .form-btn{
+        width:40%;
+    }
+    .footer p{
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .banner .logo{
+        width: 90%;
+    }
+    .banner .btn{
+        padding: 8px 15px;
+    }
+    .banner h1{
+        font-size: 40px;
+    }
+    .feature .feature-control-upper{
+        padding: 0;
+    }
+    .about{
+        background-position: left;
+    }
+    .about .about-control p{
+        color: #222;
+    }
+    .second-about .second-about-control{
+        padding: 20% 0;
+    }
+    .portfolio-upper-box{
+        padding: 0;
+    }
+    .portfolio .portfolio-image{
+        margin-bottom: 10px;
+    }
+    .portfolio .portfolio-image .image-hover ul li{
+        height: 100%;
+    }
+    .portfolio .col-lg-4{
+        padding-right: 0;     
+    }
+    .login-form .col-12 .login-form-upper{
+        padding: 0;
+    }
+    .client .text-control{
+        padding: 0;
+    }
+    .contact .col-12 .text-control{
+        padding: 0;
+    }
+    .contact form .text-email{
+        margin-left: 3%;
+    }
+}
+@media (min-width: 1200px) { ... }

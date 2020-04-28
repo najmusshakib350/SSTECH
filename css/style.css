@@ -1,0 +1,612 @@
+*{  
+    font-family: 'Poppins', sans-serif;
+  }
+ section{
+  width: 100%;
+  float: left;
+  padding: 80px 0;
+}
+header{
+  width: 100%;
+  float: left;
+}
+.text-center{
+    text-align: center;
+}
+.blue{
+    color: #756aff;
+}
+.btn{
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 8px 35px;
+    border-radius: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Poppins SemiBold', sans-serif;
+    font-weight: 600;
+  }
+  /*Banner Section Start*/
+  header h1{
+      font-family: 'Ubuntu', sans-serif !important;
+  }
+  header{
+      background: url(../img/background-banner-section.png);
+      background-position: bottom;
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding-bottom: 200px;
+  }
+  .header .navbar .nav-item .nav-link{
+      color: #b8c6dd;
+      text-transform: uppercase;
+      font-family: 'Poppins SemiBold', sans-serif;
+      font-weight: 600;
+  }
+  header .navbar .nav-item .nav-link{
+      color: #fff !important;
+  }
+  header .navbar .nav-item .nav-link:hover{     
+      color: #cc9900 !important;
+  }
+  header .navbar .nav-item .btn-cta:hover{
+      background:#cc9900;
+      border:1px solid #cc9900;
+      transition:0.5s linear;
+  }
+  header .btn-ghose:hover{
+    background:#cc9900;
+    border:1px solid #cc9900;
+    transition:0.5s linear;
+}
+  header h1{
+      font-size: 48px;
+      color: #fff;
+      margin-top: 18%;
+      margin-bottom: 6%;
+      text-transform: uppercase;
+      line-height: 1.5;
+      font-family: 'Ubuntu',sans-serif;
+      font-weight: 700;
+  }
+  header p{
+      color: #bfe3f8;
+      margin-bottom: 6%;
+      font-size: 20px;
+      line-height: 1.5;
+      font-family: 'Poppins Regular', sans-serif;
+      font-weight: 400;
+  }
+  header .btn:hover{
+      color: #fff;
+  }
+  header .banner-btn .btn-cta{
+      transition: 0.5s ease-in-out;
+      margin-right: 10px;
+  }
+  header .banner-btn .btn-cta:hover{
+      background: #fff;
+      color: #756aff;
+  }
+  header .banner-right-img{
+      width: 100%;
+  }
+  /*Banner Section End*/
+  /*Feature Section Css Start*/
+.feature{
+
+}
+.feature .feature-control-upper{
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.feature .feature-control-upper h2{
+    text-transform: uppercase;
+    font-size: 35px;
+    font-family: 'Poppins SemiBold', sans-serif;
+    font-weight: 600;
+}
+.feature .feature-control-upper p{
+    color: #636363;   
+    margin-top: 20px;   
+    font-size: 20px;   
+    line-height: 1.5;   
+    font-family: 'Poppins Regular', sans-serif;   
+    font-weight: 400;
+}
+.feature .feature-control{
+    margin-top: 10%;
+    padding: 50px 10%;
+}
+.feature .feature-control:hover{
+    box-shadow: 3px 2px 5px 0px rgba(88,88,88,0.5);
+}
+.feature .feature-control h3{
+    font-size: 24px;
+    margin-top: 10%;
+    text-transform: uppercase;
+    font-family: 'Poppins SemiBold', sans-serif;
+    font-weight: 600;
+}
+.feature .feature-control p{
+    color: #636363;   
+    margin-top: 20px;   
+    font-size: 20px;  
+    line-height: 1.5;  
+    font-family: 'Poppins Regular', sans-serif;   
+    font-weight: 400;
+}
+.feature .feature-control h6{
+    font-size: 20px;   
+    margin-top: 5%;   
+    color: #756aff;  
+    font-family: 'Poppins SemiBold', sans-serif;  
+    font-weight: 600;
+}
+/*Feature Section Css End*/
+/*About Section Css Start*/
+.about{
+    background: url(../img/About-section-picture1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.about .about-control{
+    width: 50%;
+    float: right;
+}
+.about .about-control h3{
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    font-family: 'Poppins SemiBold', sans-serif;
+    font-weight: 600;
+}
+.about .about-control p{
+    margin-bottom: 30px;
+    color: #9a9d9f;
+    font-size: 20px;
+    line-height: 1.5;
+    font-family: 'Poppins Regular', sans-serif;
+    font-weight: 400;
+}
+.about .about-control .btn-about{
+    color: #756aff;
+    transition: all 0.3s ease-in-out;
+    border: 1px solid #756aff;   
+}
+.about .about-control .btn-about:hover{
+    color: #fff;
+    background-image: linear-gradient(45deg,#19a5fc 30%,#5d4cfd 100%, transparent);  
+}
+/*About Section Css End*/
+/*Second About Section Css Start*/
+
+.second-about{
+    background: url(../img/second-about-background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.second-about h3{
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-top: 7%;
+    font-family: 'Poppins SemiBold', sans-serif;
+    font-weight: 600;
+}
+.second-about h3 span{
+    color: #756aff;
+}
+.second-about .second-about-control{
+    margin-top: 20%;
+    padding: 15%;
+}
+.second-about .second-about-control:hover{   
+    box-shadow: 2px 2px 3px 0px rgba(88,88,88,0.5);    
+    background: #f6fbff;
+}
+.second-about .second-about-control h4{
+    font-size: 30px;     
+    margin-bottom: 10px;       
+    font-family: 'Poppins SemiBold', sans-serif;    
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.second-about .second-about-control p{
+    color: #3f3f3f;     
+    font-size: 20px;        
+    font-family: 'Poppins Regular', sans-serif;  
+    font-weight: 400;
+}
+/*Second About Section Css End*/
+/*Portfolio Section Css Start*/
+.portfolio-upper-box{
+    padding-left: 12%;
+    padding-right: 12%;
+    margin-bottom: 5%;
+}
+.portfolio .portfolio-upper-box h3{
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    font-family: 'Poppins SemiBold', sans-serif;
+    font-weight: 600;
+}
+.portfolio .portfolio-upper-box p{
+    color: #808080;
+    font-size: 20px;
+    line-height: 1.5;
+    font-family: 'Poppins Regular', sans-serif;
+    font-weight: 400;
+}
+.portfolio .navbar .nav-menu{
+    margin: 30px auto;
+    border: 1px solid #756aff;
+    border-radius: 100px;
+    box-sizing: border-box;
+}
+.portfolio .navbar .nav-menu .nav-item .active{
+    background:#756aff;
+    border-radius: 25px;
+}
+.portfolio .navbar .nav-menu .nav-item:hover{
+    background:#756aff;
+    border-radius: 25px;
+}
+.portfolio .navbar .nav-menu .nav-item .nav-link{
+    text-decoration: none;
+    color: #808080;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 11px 17px;
+    font-family: 'Poppins Regular', sans-serif;
+    font-weight: 400;
+    box-sizing: border-box;
+}
+.portfolio .navbar .nav-menu .nav-item .nav-link:hover{
+    color:#fff; 
+}
+.portfolio .portfolio-image{
+    position: relative;
+    MARGIN-BOTTOM: 5PX;
+}
+.portfolio .portfolio-image img{
+    width: 100% !important;
+}
+.portfolio .portfolio-image .image-hover{
+    position: absolute;   
+    top: 0;  
+    left: 0;   
+    width: 100%;   
+    height: 100%;  
+    background: #6092f2;   
+    opacity: 0;   
+    transition: all 0.5s ease-in-out;
+}
+.portfolio .portfolio-image .image-hover ul{
+    list-style: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: inline-block;
+    }
+.portfolio .portfolio-image .image-hover ul li{   
+    display: inline-block;   
+    width: 65px;   
+    height: 35px;  
+    line-height: 40px;    
+    text-align: center;   
+    border-radius: 36px;
+}
+.portfolio .portfolio-image .image-hover ul li .hover-img{
+    color: #fff;
+    width: 200%;
+ }
+.portfolio .portfolio-image .text-hover{
+    position: absolute;   
+    top: 0;   
+    left: 0;   
+    width: 100%;   
+    height: 100%;   
+    opacity: 0;    
+    transition: all 0.5s ease-in-out;
+}
+.portfolio .portfolio-image .text-hover p{
+    position: absolute;   
+    top: 80%;   
+    left: 10%;    
+    text-transform: uppercase;   
+    color: #fff;   
+    font-family: 'Poppins Regular', sans-serif;    
+    font-weight: 400;
+}
+.portfolio .portfolio-image:hover .image-hover{
+    opacity: 0.8;
+}
+.portfolio .portfolio-image:hover .text-hover{
+    opacity: 0.5;
+}
+.portfolio .col-4{
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+/*Portfolio Section Css End*/
+/*Login Form Css Start*/
+.login-form{
+    background: url(../img/about-background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.login-form .login-form-control form{
+    background: #fff;
+    display: flex;
+}
+.login-form .col-12 .login-form-upper{
+    padding: 0 15%;
+}
+.login-form .col-12 .login-form-upper h3{
+
+    font-size: 35px;
+    color: #fff;
+    font-weight: 600;
+    font-family: 'Poppins Semi', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 4%;
+}
+.login-form .col-12 .login-form-upper p{
+    color: #f7f7f7;   
+    font-size: 20px;    
+    font-family: 'Poppins Regular', sans-serif;   
+    font-weight: 400;    
+    margin-bottom: 6%;
+}
+.login-form form{
+    width: 60%;
+    overflow: hidden;
+    margin: 0 auto;
+    border: none;
+    border-radius: 100px;
+}
+.login-form form .text-field{       
+    padding: 20px 30px;       
+    width: 33.2%;      
+    border: none;      
+    box-sizing: border-box;
+}
+.login-form .login-form-control form img{
+    height: 100%;
+    margin: auto;
+}
+.login-form form .submit-btn{   
+    text-transform: uppercase;   
+    padding: 20px 30px;  
+    width: 33.33%;   
+    border: none;  
+    background: #fff;   
+    box-sizing: border-box;
+}
+.login-form form .submit-btn:hover{
+    border-radius: 50px;
+    background: #525afd;
+    color: #fff;
+    font-size: 16px;
+}
+/*Login Form Css End*/
+/*Client Section Css Start*/
+.client .col-4{   
+    padding: 12px 2%;   
+    box-sizing: border-box;
+}
+.client .text-control{
+    padding: 0px 24%;
+    margin-bottom: 8%;
+}
+.client .text-control h3{
+    font-family: 'Poppins SemiBold', sans-serif;
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 5%;
+}
+.client .text-control h3 span{
+    color: #756aff;
+}
+.client .text-control p{
+    font-family: 'Poppins Regular', sans-serif;    
+    font-size: 20px;    
+    font-weight: 400;   
+    color: #999999;    
+    line-height: 1.5;
+}
+.client .client-control{
+    box-shadow: 2px 2px 3px 0px rgba(88,88,88,0.5);
+}
+.client .client-control img{
+    width: 100%;
+}
+.client .client-control h4{
+    text-transform: uppercase;
+    color: #7b99fe;
+    font-family: 'Poppins Medium', sans-serif;
+    font-size: 25px;
+}
+
+.client .client-control .star-nav .star-menu{ 
+    list-style: none;
+}
+.client .client-control .star-nav .star-menu .star-item{
+    display: inline-block;
+}
+
+.client .client-control .star-nav .star-menu .star-item .fa{ 
+    padding: 3px;    
+    color: #7b99fe;
+}
+.client .client-control .sociel-media .sociel-menu{
+    padding-left: 0;
+}
+.client .client-control .star-nav .star-menu{
+    padding-left: 0;
+}
+
+.client .client-control .sociel-media .sociel-menu{  
+    list-style: none;
+}
+.client .client-control .sociel-media .sociel-menu .sociel-item{ 
+    display: inline-block;
+}
+.client .client-control .sociel-media .sociel-menu .sociel-item a{
+    text-decoration: none;
+}
+.client .client-control .sociel-media .sociel-menu .sociel-item a .fa{
+    padding: 5px;
+}
+    
+.client .client-control p{
+    color: #9f9f9f;    
+    font-family: 'Poppins Regular', sans-serif;    
+    font-size: 18px;    
+    font-weight: 400;   
+    padding-bottom: 50px;    
+    margin-top: 5%;
+}
+/*Client Section Css End*/
+/*Contact Section Css Start*/
+
+.contact .col-12 .text-control{
+    padding: 20px 22%;
+}
+.contact .col-12 .text-control h3{
+    font-size: 35px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: 'Poppins SemiBold', sans-serif;
+}
+.contact .col-12 .text-control h3 span{ 
+    color: #756aff;
+}
+.contact .col-4{
+    padding: 10px;    
+    box-sizing: border-box;
+}
+.contact .col-12 .text-control p{
+    font-family: 'Poppins Regular', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #999999;
+}
+.contact .contact-control{
+    background: #eef9ff;
+    padding: 30px 5%;
+    margin-top: 10%;
+}
+
+.contact .contact-control p{
+    font-size: 20px;    
+    font-weight: 400;    
+    font-family: 'Poppins Regular',sans-serif;      
+    margin-top: 12px;
+}
+
+.contact form .text{
+    width: 48%;
+    padding: 8px;
+    border: 1px solid #ebebeb;
+    box-sizing: border-box;
+    display: inline-block;
+    background-color: #fafafa;
+    margin-top: 5%;
+    font-size: 16px;
+}
+.contact form .textarea{
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ebebeb;
+    box-sizing: border-box;
+    margin-top: 5%;
+    background-color: #fafafa;
+    font-size: 16px;
+}
+.contact form .text-email{
+    width: 48%;
+    padding: 8px;
+    border: 1px solid #ebebeb;
+    box-sizing: border-box;
+    display: inline-block;
+    background-color: #fafafa;
+    margin-top: 5%;
+    font-size: 16px;
+}
+.contact form .text-sub{
+    width: 100%;
+    padding: 8px;
+    margin-top: 5%;
+    border: 1px solid #ebebeb;
+    box-sizing: border-box;
+    background-color: #fafafa;
+    font-size: 16px;
+}
+.contact form .form-btn{
+    width: 30%;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    margin-top: 6%;
+    text-transform: uppercase;
+}
+.contact form .form-btn:hover{ 
+    color: #fff;      
+    background-image: linear-gradient(45deg, orange,#cc9900);
+    transition: 0.5s linear;
+}
+.contact .form-padding{
+    padding: 10px;
+    box-sizing: border-box;
+}
+.contact .contact-us{
+    margin-top: 5%;
+}
+.contact .contact-us img{
+    width: 100%;
+}
+/*contact Section Css End*/
+/*Footer Section Css Start*/
+footer{
+    width: 100%;
+    float: left;
+    background: #2496fc;
+    padding: 20px 0px;
+}
+.footer p{
+   font-family: 'Poppins Regular', sans-serif;
+   font-size: 18px;
+   font-weight: 400;
+   margin-top: 10px;
+   color: #fff;
+}
+.footer .font-awesome{
+    justify-content: center;
+}
+
+.footer .font-awesome ul li{ 
+   width: 35px;    
+   height: 35px;    
+   text-align: center;    
+   line-height: 35px;    
+   float: left;
+}
+.footer .font-awesome .nav-item .nav-link{
+   text-decoration: none;
+}
+.footer .font-awesome .nav-item .nav-link .fa{
+   color: #fff;
+}
+/*Footer Section Css End*/
+
+
+
+
